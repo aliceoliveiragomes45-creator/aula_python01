@@ -1,0 +1,7 @@
+SELECT 
+livros.titulo,
+livros.ano_publi,
+autores.nome AS nome_autor,
+autores.nacionalidade
+FROM livros
+INNER JOIN autores ON livros.id_autor = autores.id_autor;
