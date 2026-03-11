@@ -24,6 +24,7 @@ def abrir_explorador_de_arquivos():
     executar_comando("explorer")
 def mostrar_arquivo():
     executar_comando("dir")
+def criar_pasta("")
 
 while True:
     print("\n -------Menu comandos--------")
